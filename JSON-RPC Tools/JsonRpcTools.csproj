@@ -14,4 +14,10 @@
     <PackageReference Include="StreamJsonRpc" Version="2.6.121" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="NationalInstruments.TestStand.Interop.API">
+      <HintPath>dependencies\NationalInstruments.TestStand.Interop.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
